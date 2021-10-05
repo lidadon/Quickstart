@@ -29,9 +29,4 @@ public class TriangleTest {
         assertThatExceptionOfType(DegenerateTriangleException.class)
                 .isThrownBy(() -> calculateTriangleSquare(3,4,8));
     }
-
-
-
-
-
 }
