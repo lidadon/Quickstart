@@ -1,35 +1,29 @@
-package ru.geekbrains.homework6CRM;
+package ru.geekbrains.homework7CRM;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+import io.qameta.allure.Description;
+import io.qameta.allure.Story;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import ru.geekbrains.homework7CRM.CreateProjectPage;
+import ru.geekbrains.homework7CRM.LoginPage;
+import ru.geekbrains.homework7CRM.MainPage;
+import ru.geekbrains.homework7CRM.ProjectsSubMenu;
 
-public class LoginTest {
-    WebDriver webDriver;
-    WebDriverWait webDriverWait;
+@Story("Создание нового проекта")
+public class LoginTest extends BaseTest {
     public static final String CRM_URL = "https://crm.geekbrains.space/";
     public static final String LOGIN = "Applanatest1";
     public static final String PASSWORD = "Student2020!";
 
-    @BeforeAll
-    static void registerDriver() {
-        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
-        WebDriverManager.chromedriver().setup();
-    }
 
     @BeforeEach
-    void setupBrowser() {
-        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
-        webDriver = new ChromeDriver();
-        webDriverWait = new WebDriverWait(webDriver, 10);
+    void getURL() {
         webDriver.get(CRM_URL);
     }
 
     @Test
+    @Description("Создание нового проекта")
     void loginTest() {
         new LoginPage(webDriver)
                 .login(LOGIN, PASSWORD);
@@ -41,7 +35,7 @@ public class LoginTest {
                 .CreateProjectButtonClick();
 
         new CreateProjectPage(webDriver)
-                .fillProjectName("New Project 53636")
+                .fillProjectName("New Project 3546")
                 .organisationNameFieldClick()
                 .organisationNameClick()
                 .selectPriority("Низкий")
@@ -56,10 +50,5 @@ public class LoginTest {
 
         webDriverWait.until(ExpectedConditions.invisibilityOf(webDriver.findElement(By.xpath("//div[@class='loader-frame well']"))));
         Assertions.assertTrue(webDriver.findElement(By.xpath("//*[.='Проект сохранен']")).isDisplayed());
-    }
-
-    @AfterEach
-    void tearDown() {
-        webDriver.quit();
     }
 }
