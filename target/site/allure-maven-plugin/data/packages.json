@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "ru.geekbrains.homework7CRM.LoginTest",
+    "children" : [ {
+      "name" : "loginTest",
+      "uid" : "1c71dda97b3ded07",
+      "parentUid" : "adf24404879f35e721c8f2d6f979ef22",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634314668026,
+        "stop" : 1634314707280,
+        "duration" : 39254
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ru.geekbrains.homework7CRM.LoginTest"
+  } ]
+}

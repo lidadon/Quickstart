@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-CSAB62S5",
+    "children" : [ {
+      "name" : "3884@LAPTOP-CSAB62S5.main(1)",
+      "children" : [ {
+        "name" : "loginTest()",
+        "uid" : "1c71dda97b3ded07",
+        "parentUid" : "f39c60dba95a28184ee7c2d5586d2eaa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634314668026,
+          "stop" : 1634314707280,
+          "duration" : 39254
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f39c60dba95a28184ee7c2d5586d2eaa"
+    } ],
+    "uid" : "740e2714b6ad8af5a892bd2c0761b064"
+  } ]
+}

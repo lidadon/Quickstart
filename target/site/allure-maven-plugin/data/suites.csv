@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Oct 15 19:17:48 MSK 2021","Fri Oct 15 19:18:27 MSK 2021","39254","","ru.geekbrains.homework7CRM.LoginTest","","ru.geekbrains.homework7CRM.LoginTest","loginTest","loginTest()","Создание нового проекта"

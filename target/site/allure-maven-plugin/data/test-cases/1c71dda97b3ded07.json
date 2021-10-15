@@ -1,0 +1,639 @@
+{
+  "uid" : "1c71dda97b3ded07",
+  "name" : "loginTest()",
+  "fullName" : "ru.geekbrains.homework7CRM.LoginTest.loginTest",
+  "historyId" : "8b1321362d126ffb34f3fed2b3b19c22",
+  "time" : {
+    "start" : 1634314668026,
+    "stop" : 1634314707280,
+    "duration" : 39254
+  },
+  "description" : "Создание нового проекта",
+  "descriptionHtml" : "<p>Создание нового проекта</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Создание нового проекта",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Заполнить поля логина и пароль, нажать кнопку Войти",
+      "time" : {
+        "start" : 1634314674678,
+        "stop" : 1634314682566,
+        "duration" : 7888
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Клик на элемент с текстом: Войти",
+        "time" : {
+          "start" : 1634314675080,
+          "stop" : 1634314675080,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "cae16b4887a1f350",
+        "name" : "Скриншот",
+        "source" : "cae16b4887a1f350.png",
+        "type" : "image/png",
+        "size" : 20993
+      } ],
+      "parameters" : [ {
+        "name" : "login",
+        "value" : "Applanatest1"
+      }, {
+        "name" : "password",
+        "value" : "Student2020!"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Открыть пункт навигационного меню",
+      "time" : {
+        "start" : 1634314682567,
+        "stop" : 1634314682942,
+        "duration" : 375
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "menuName",
+        "value" : "Проекты"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Клик на кнопку Все проекты",
+      "time" : {
+        "start" : 1634314682943,
+        "stop" : 1634314683409,
+        "duration" : 466
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Клик на элемент с текстом: Все проекты",
+        "time" : {
+          "start" : 1634314683068,
+          "stop" : 1634314683068,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "b9eccd487d25d59",
+        "name" : "Скриншот",
+        "source" : "b9eccd487d25d59.png",
+        "type" : "image/png",
+        "size" : 84686
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Клик на кнопку Создать проект",
+      "time" : {
+        "start" : 1634314683409,
+        "stop" : 1634314691909,
+        "duration" : 8500
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Клик на элемент с текстом: Создать проект",
+        "time" : {
+          "start" : 1634314687221,
+          "stop" : 1634314687221,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "9d9e1e2caad0b7d5",
+        "name" : "Скриншот",
+        "source" : "9d9e1e2caad0b7d5.png",
+        "type" : "image/png",
+        "size" : 154702
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Заполнить название проекта",
+      "time" : {
+        "start" : 1634314691963,
+        "stop" : 1634314692471,
+        "duration" : 508
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "New Project 0825939"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Клик на поле Организация",
+      "time" : {
+        "start" : 1634314692471,
+        "stop" : 1634314694965,
+        "duration" : 2494
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Клик на элемент с текстом: Укажите организацию",
+        "time" : {
+          "start" : 1634314692548,
+          "stop" : 1634314692548,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "b53d0a088e4a8c46",
+        "name" : "Скриншот",
+        "source" : "b53d0a088e4a8c46.png",
+        "type" : "image/png",
+        "size" : 85112
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Выбрать название организации",
+      "time" : {
+        "start" : 1634314694965,
+        "stop" : 1634314695544,
+        "duration" : 579
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Клик на элемент с текстом: 123test",
+        "time" : {
+          "start" : 1634314695021,
+          "stop" : 1634314695021,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "42ce9ecf1462a9dd",
+        "name" : "Скриншот",
+        "source" : "42ce9ecf1462a9dd.png",
+        "type" : "image/png",
+        "size" : 92811
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Выбрать приоритет",
+      "time" : {
+        "start" : 1634314695545,
+        "stop" : 1634314696862,
+        "duration" : 1317
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Клик на элемент с текстом: Низкий",
+        "time" : {
+          "start" : 1634314695935,
+          "stop" : 1634314695935,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "78e1270fe24caacc",
+        "name" : "Скриншот",
+        "source" : "78e1270fe24caacc.png",
+        "type" : "image/png",
+        "size" : 83981
+      } ],
+      "parameters" : [ {
+        "name" : "option",
+        "value" : "Низкий"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Выбрать источник финансирования",
+      "time" : {
+        "start" : 1634314696862,
+        "stop" : 1634314697308,
+        "duration" : 446
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Клик на элемент с текстом: Внутреннее",
+        "time" : {
+          "start" : 1634314697028,
+          "stop" : 1634314697028,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "5a5ac6a4ea1899f9",
+        "name" : "Скриншот",
+        "source" : "5a5ac6a4ea1899f9.png",
+        "type" : "image/png",
+        "size" : 104370
+      } ],
+      "parameters" : [ {
+        "name" : "option",
+        "value" : "Внутреннее"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Выбрать подразделение",
+      "time" : {
+        "start" : 1634314697309,
+        "stop" : 1634314697817,
+        "duration" : 508
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Клик на элемент с текстом: Research & Development",
+        "time" : {
+          "start" : 1634314697523,
+          "stop" : 1634314697523,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "1a2b8329e7550b2e",
+        "name" : "Скриншот",
+        "source" : "1a2b8329e7550b2e.png",
+        "type" : "image/png",
+        "size" : 103917
+      } ],
+      "parameters" : [ {
+        "name" : "option",
+        "value" : "Research & Development"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Выбрать куратора",
+      "time" : {
+        "start" : 1634314697817,
+        "stop" : 1634314698370,
+        "duration" : 553
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Клик на элемент с текстом: Applanatest1 Applanatest1 Applanatest1",
+        "time" : {
+          "start" : 1634314698001,
+          "stop" : 1634314698001,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "128b04aa8d5acaec",
+        "name" : "Скриншот",
+        "source" : "128b04aa8d5acaec.png",
+        "type" : "image/png",
+        "size" : 103047
+      } ],
+      "parameters" : [ {
+        "name" : "option",
+        "value" : "Applanatest1 Applanatest1 Applanatest1"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Выбрать руководителя проекта",
+      "time" : {
+        "start" : 1634314698371,
+        "stop" : 1634314699118,
+        "duration" : 747
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Клик на элемент с текстом: Applanatest1 Applanatest1 Applanatest1",
+        "time" : {
+          "start" : 1634314698560,
+          "stop" : 1634314698560,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "85bfb639d7f8260f",
+        "name" : "Скриншот",
+        "source" : "85bfb639d7f8260f.png",
+        "type" : "image/png",
+        "size" : 104463
+      } ],
+      "parameters" : [ {
+        "name" : "option",
+        "value" : "Applanatest1 Applanatest1 Applanatest1"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Выбрать менеджера",
+      "time" : {
+        "start" : 1634314699118,
+        "stop" : 1634314699704,
+        "duration" : 586
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Клик на элемент с текстом: Applanatest1 Applanatest1 Applanatest1",
+        "time" : {
+          "start" : 1634314699396,
+          "stop" : 1634314699396,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "37d79c1c15d07c1c",
+        "name" : "Скриншот",
+        "source" : "37d79c1c15d07c1c.png",
+        "type" : "image/png",
+        "size" : 105129
+      } ],
+      "parameters" : [ {
+        "name" : "option",
+        "value" : "Applanatest1 Applanatest1 Applanatest1"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Клик на поле Основное контактное лицо",
+      "time" : {
+        "start" : 1634314699705,
+        "stop" : 1634314700245,
+        "duration" : 540
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Клик на элемент с текстом: ",
+        "time" : {
+          "start" : 1634314699764,
+          "stop" : 1634314699764,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "f4eb0be35a6e2339",
+        "name" : "Скриншот",
+        "source" : "f4eb0be35a6e2339.png",
+        "type" : "image/png",
+        "size" : 106705
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Выбрать контактное лицо",
+      "time" : {
+        "start" : 1634314700246,
+        "stop" : 1634314700652,
+        "duration" : 406
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Клик на элемент с текстом: 1111 22222",
+        "time" : {
+          "start" : 1634314700323,
+          "stop" : 1634314700323,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "1db72fc47ae6406b",
+        "name" : "Скриншот",
+        "source" : "1db72fc47ae6406b.png",
+        "type" : "image/png",
+        "size" : 105300
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Клик на кнопку Сохранить и закрыть",
+      "time" : {
+        "start" : 1634314700653,
+        "stop" : 1634314701187,
+        "duration" : 534
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Клик на элемент с текстом: Сохранить и закрыть",
+        "time" : {
+          "start" : 1634314700703,
+          "stop" : 1634314700703,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "227ece61b1af951c",
+        "name" : "Скриншот",
+        "source" : "227ece61b1af951c.png",
+        "type" : "image/png",
+        "size" : 99340
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 14,
+    "hasContent" : true,
+    "stepsCount" : 30
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:ru.geekbrains.homework7CRM.LoginTest]/[method:loginTest()]"
+  }, {
+    "name" : "story",
+    "value" : "Создание нового проекта"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-CSAB62S5"
+  }, {
+    "name" : "thread",
+    "value" : "3884@LAPTOP-CSAB62S5.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ru.geekbrains.homework7CRM.LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.geekbrains.homework7CRM.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginTest"
+  }, {
+    "name" : "suite",
+    "value" : "ru.geekbrains.homework7CRM.LoginTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1c71dda97b3ded07.json",
+  "parameterValues" : [ ]
+}
