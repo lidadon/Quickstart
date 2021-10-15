@@ -35,7 +35,7 @@ public class LoginTest extends BaseTest {
                 .CreateProjectButtonClick();
 
         new CreateProjectPage(webDriver)
-                .fillProjectName("New Project 0825939")
+                .fillProjectName("New Project 028275")
                 .organisationNameFieldClick()
                 .organisationNameClick()
                 .selectPriority("Низкий")
